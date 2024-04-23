@@ -140,7 +140,7 @@ checkoutBtn.addEventListener("click", function(){
     const isOpen = checkRestaurantOpen();
     if(!isOpen){
         Toastify({
-            text: "Restaurante fechado! Consulte o horário de funcionamento.",
+            text: "Nossa loja atualmente se encontra fechada! Por Favor Consulte o horário de funcionamento.",
             duration: 3000,
             close: true,
             gravity: "top", // `top` or `bottom`
